@@ -14,7 +14,7 @@ export default function CTA() {
               free and get started in minutes!
             </p>
             <a href='/sign-up'>
-              <Button>Get Started For Free Today!</Button>
+              <Button>Get Started</Button>
             </a>
           </div>
         </div>
