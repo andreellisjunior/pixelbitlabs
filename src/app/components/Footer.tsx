@@ -1,6 +1,6 @@
 'use client';
 
-import { navigation } from '../page';
+import { navigation } from '@/utils';
 import Logo from '../../../public/Logo.svg';
 import Image from 'next/image';
 import Link from 'next/link';

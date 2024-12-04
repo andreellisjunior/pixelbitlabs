@@ -12,13 +12,7 @@ import Logo from '../../public/Logo.svg';
 import Image from 'next/image';
 import { rubik } from './fonts/config';
 import Portfolio from './components/Portfolio';
-
-export const navigation = [
-  { name: 'Services', href: '#' },
-  { name: 'About', href: '#' },
-  { name: 'Portfolio', href: '#' },
-  { name: 'Contact', href: '#' },
-];
+import { navigation } from '@/utils';
 
 export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
