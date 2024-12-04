@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 
 import './globals.css';
 import { monts } from './fonts/config';
+import Head from 'next/head';
 
 export const metadata: Metadata = {
   title: 'Creating Solutions for your Business | PixelBit Labs',
@@ -16,6 +17,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
+      <Head>
+        <meta property='og:image' content='<generated>' />
+        <meta property='og:image:type' content='<generated>' />
+        <meta property='og:image:width' content='<generated>' />
+        <meta property='og:image:height' content='<generated>' />
+      </Head>
       <body
         className={`${monts.className} antialiased bg-[#0C0A10] text-white`}
       >
