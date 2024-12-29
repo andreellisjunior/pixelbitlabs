@@ -13,7 +13,7 @@ export default function CTA() {
               Start creating, saving and sharing your recipes today. Sign up for
               free and get started in minutes!
             </p>
-            <a href='/sign-up'>
+            <a href='https://uw908ylzc31.typeform.com/to/l94YCrvK'>
               <Button>Get Started</Button>
             </a>
           </div>

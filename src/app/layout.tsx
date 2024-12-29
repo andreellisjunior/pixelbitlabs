@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang='en'>
+    <html className='scroll-smooth' lang='en'>
       <Head>
         <meta property='og:image' content='<generated>' />
         <meta property='og:image:type' content='<generated>' />

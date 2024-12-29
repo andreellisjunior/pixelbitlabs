@@ -1,3 +1,8 @@
+import Website from '../../../public/assets/website.jpg'
+import CustomWebsite from '../../../public/assets/custom-website.jpg'
+import Ecommerce from '../../../public/assets/ecommerce.jpg'
+import Application from '../../../public/assets/application.jpg'
+
 const features = [
   {
     name: 'Level ONE',
@@ -21,7 +26,7 @@ const features = [
 
 export default function Specs() {
   return (
-    <div className='bg-base/60'>
+    <div id='about' className='bg-base/60'>
       <div className='mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8'>
         <div>
           <h2 className='text-3xl font-bold tracking-tight text-white sm:text-4xl'>
@@ -48,22 +53,22 @@ export default function Specs() {
         <div className='grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8'>
           <img
             alt='Walnut card tray with white powder coated steel divider and 3 punchout holes.'
-            src='https://tailwindui.com/plus/img/ecommerce-images/product-feature-03-detail-01.jpg'
+            src={Website.src}
             className='rounded-lg bg-gray-100'
           />
           <img
             alt='Top down view of walnut card tray with embedded magnets and card groove.'
-            src='https://tailwindui.com/plus/img/ecommerce-images/product-feature-03-detail-02.jpg'
+            src={CustomWebsite.src}
             className='rounded-lg bg-gray-100'
           />
           <img
             alt='Side of walnut card tray with card groove and recessed card area.'
-            src='https://tailwindui.com/plus/img/ecommerce-images/product-feature-03-detail-03.jpg'
+            src={Ecommerce.src}
             className='rounded-lg bg-gray-100'
           />
           <img
             alt='Walnut card tray filled with cards and card angled in dedicated groove.'
-            src='https://tailwindui.com/plus/img/ecommerce-images/product-feature-03-detail-04.jpg'
+            src={Application.src}
             className='rounded-lg bg-gray-100'
           />
         </div>

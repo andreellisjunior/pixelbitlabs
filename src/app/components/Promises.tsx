@@ -1,6 +1,10 @@
+import MobileFriendly from '../../../public/assets/mobile-friendly.jpg'
+import ClearDesign from '../../../public/assets/clear-design.jpg'
+
+
 export default function Promises() {
   return (
-    <div className='bg-base/60 py-12'>
+    <div id="services" className='bg-base/60 py-12'>
       <div className='mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8'>
         <h2 className='text-center text-base/7 font-semibold text-cyan-400'>
           Make an impact
@@ -17,15 +21,14 @@ export default function Promises() {
                   Mobile friendly
                 </p>
                 <p className='mt-2 max-w-lg text-sm/6 text-white max-lg:text-center'>
-                  Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure
-                  qui lorem cupidatat commodo.
+                 In this day and age of accessing the world on our phones, all of our websites and applications will have a mobile friendly approach.
                 </p>
               </div>
               <div className='relative min-h-[30rem] w-full grow [container-type:inline-size] max-lg:mx-auto max-lg:max-w-sm'>
                 <div className='absolute inset-x-10 bottom-0 top-10 overflow-hidden rounded-t-[12cqw] border-x-[3cqw] border-t-[3cqw] border-gray-700 bg-gray-900 shadow-2xl'>
                   <img
                     className='size-full object-cover object-top'
-                    src='https://tailwindui.com/plus/img/component-images/bento-03-mobile-friendly.png'
+                    src={MobileFriendly.src}
                     alt=''
                   />
                 </div>
@@ -41,8 +44,7 @@ export default function Promises() {
                   Performance
                 </p>
                 <p className='mt-2 max-w-lg text-sm/6 text-white max-lg:text-center'>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit
-                  maiores impedit.
+                 Nothing is worse than waiting for a website to load. We prioritize speed. Your data needs to load, and load quickly to get done what needs to be done.
                 </p>
               </div>
               <div className='flex flex-1 items-center justify-center px-8 max-lg:pb-12 max-lg:pt-10 sm:px-10 lg:pb-2'>
@@ -63,8 +65,7 @@ export default function Promises() {
                   Security
                 </p>
                 <p className='mt-2 max-w-lg text-sm/6 text-white max-lg:text-center'>
-                  Morbi viverra dui mi arcu sed. Tellus semper adipiscing
-                  suspendisse semper morbi.
+                 Safety and security is our top priority. Every website and application will have top-tier specs for securing your customers data and ensuring site visitors are protected.
                 </p>
               </div>
               <div className='flex flex-1 items-center [container-type:inline-size] max-lg:py-6 lg:pb-2'>
@@ -85,29 +86,23 @@ export default function Promises() {
                   Clear design
                 </p>
                 <p className='mt-2 max-w-lg text-sm/6 text-white max-lg:text-center'>
-                  Sit quis amet rutrum tellus ullamcorper ultricies libero dolor
-                  eget sem sodales gravida.
+                 We understand the pain of not knowing where to click or what to do next. All design are clean AND clear. No questions asked!
                 </p>
               </div>
-              <div className='relative min-h-[30rem] w-full grow'>
-                <div className='absolute bottom-0 left-10 right-0 top-10 overflow-hidden rounded-tl-xl bg-gray-900 shadow-2xl'>
-                  <div className='flex bg-gray-800/40 ring-1 ring-white/5'>
-                    <div className='-mb-px flex text-sm/6 font-medium text-gray-400'>
-                      <div className='border-b border-r border-b-white/20 border-r-white/10 bg-white/5 px-4 py-2 text-white'>
-                        NotificationSetting.jsx
-                      </div>
-                      <div className='border-r border-gray-600/10 px-4 py-2'>
-                        App.jsx
-                      </div>
-                    </div>
-                  </div>
-                  <div className='px-6 pb-14 pt-6'>
-                    {/* Your code example */}
-                  </div>
+              <div
+                  className='relative min-h-[30rem] w-full grow [container-type:inline-size] max-lg:mx-auto max-lg:max-w-sm'>
+                <div
+                    className='absolute inset-x-10 bottom-0 top-10 overflow-hidden rounded-t-[12cqw] border-x-[3cqw] border-t-[3cqw] border-gray-700 bg-gray-900 shadow-2xl'>
+                  <img
+                      className='size-full object-cover object-top'
+                      src={ClearDesign.src}
+                      alt=''
+                  />
                 </div>
               </div>
             </div>
-            <div className='pointer-events-none absolute inset-px rounded-lg shadow ring-1 ring-black/5 max-lg:rounded-b-[2rem] lg:rounded-r-[2rem]'></div>
+            <div
+                className='pointer-events-none absolute inset-px rounded-lg shadow ring-1 ring-black/5 max-lg:rounded-b-[2rem] lg:rounded-r-[2rem]'></div>
           </div>
         </div>
       </div>

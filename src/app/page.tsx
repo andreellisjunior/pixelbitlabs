@@ -53,7 +53,11 @@ export default function Example() {
               ))}
             </div>
             <div className='hidden lg:flex lg:flex-1 lg:justify-end'>
-              <Button>Get Started</Button>
+              <Button>
+                <a href='https://uw908ylzc31.typeform.com/to/l94YCrvK?typeform-source=localhost' target='_blank'>
+                Get Started
+                </a>
+              </Button>
             </div>
           </nav>
           <Dialog
@@ -79,19 +83,22 @@ export default function Example() {
               </div>
               <div className='mt-6 flow-root'>
                 <div className='-my-6 divide-y divide-gray-500/10'>
-                  <div className='space-y-2 py-6'>
+                  <div className='space-y-2 py-6 mb-6'>
                     {navigation.map((item) => (
                       <a
                         key={item.name}
                         href={item.href}
-                        className='-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold hover:bg-gray-50'
+                        onClick={() => {setMobileMenuOpen(false)}}
+                        className='-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold hover:bg-gray-50 hover:text-indigo-900 transition'
                       >
                         {item.name}
                       </a>
                     ))}
                   </div>
                 </div>
-                <Button>Get Started</Button>
+                <Button><a href='https://uw908ylzc31.typeform.com/to/l94YCrvK?typeform-source=localhost' target='_blank'>
+                  Get Started
+                </a></Button>
               </div>
             </DialogPanel>
           </Dialog>
@@ -131,8 +138,10 @@ export default function Example() {
                 Let’s build digital experiences that drive growth and success.
               </p>
               <div className='mt-10 flex items-center justify-center gap-x-6'>
-                <Button>Get Started</Button>
-                <a href='#' className='text-sm/6 font-semibold'>
+                <Button><a href='https://uw908ylzc31.typeform.com/to/l94YCrvK?typeform-source=localhost' target='_blank'>
+                  Get Started
+                </a></Button>
+                <a href='#services' className='text-sm/6 font-semibold'>
                   Learn more <span aria-hidden='true'>→</span>
                 </a>
               </div>

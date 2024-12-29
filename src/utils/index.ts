@@ -1,6 +1,6 @@
 export const navigation = [
-  { name: 'Services', href: '#' },
-  { name: 'About', href: '#' },
-  { name: 'Portfolio', href: '#' },
-  { name: 'Contact', href: '#' },
+  { name: 'Services', href: '#services' },
+  { name: 'About', href: '#about' },
+  { name: 'Portfolio', href: '#portfolio' },
+  { name: 'Contact', href: 'support@pixelbitlabs.com' },
 ];
