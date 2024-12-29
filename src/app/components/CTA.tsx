@@ -10,8 +10,7 @@ export default function CTA() {
               What are you waiting for?
             </h2>
             <p className='mt-4 text-lg'>
-              Start creating, saving and sharing your recipes today. Sign up for
-              free and get started in minutes!
+             Get in contact today to get your online presence tailored to your brand and experience!
             </p>
             <a href='https://uw908ylzc31.typeform.com/to/l94YCrvK'>
               <Button>Get Started</Button>
