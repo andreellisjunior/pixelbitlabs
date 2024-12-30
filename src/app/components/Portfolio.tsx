@@ -17,14 +17,6 @@ const Portfolio = () => {
     showCard,
   },
     {
-      image: Bowler.src,
-      category: 'E-Commerce',
-      title: `Bowler Transmissions`,
-      button: `View Details`,
-      href: `https://bowlertransmissions.com/`,
-      showCard,
-    },
-    {
       image: Lola.src,
       category: `Custom`,
       title: `Lola Designs Creative Play Studio`,
@@ -112,18 +104,18 @@ const Portfolio = () => {
                     Custom Designed
                   </button>
                 </li>
-                <li className='mb-1'>
-                  <button
-                    onClick={() => handleProject('e-commerce')}
-                    className={`inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8 ${
-                      showCard === 'e-commerce'
-                        ? 'activeClasses bg-indigo-900 text-white'
-                        : 'inactiveClasses text-body-color dark:text-dark-6 hover:bg-indigo-900 hover:text-white'
-                    }`}
-                  >
-                    E-Commerce
-                  </button>
-                </li>
+                {/*<li className='mb-1'>*/}
+                {/*  <button*/}
+                {/*    onClick={() => handleProject('e-commerce')}*/}
+                {/*    className={`inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8 ${*/}
+                {/*      showCard === 'e-commerce'*/}
+                {/*        ? 'activeClasses bg-indigo-900 text-white'*/}
+                {/*        : 'inactiveClasses text-body-color dark:text-dark-6 hover:bg-indigo-900 hover:text-white'*/}
+                {/*    }`}*/}
+                {/*  >*/}
+                {/*    E-Commerce*/}
+                {/*  </button>*/}
+                {/*</li>*/}
                 <li className='mb-1'>
                   <button
                     onClick={() => handleProject('applications')}
